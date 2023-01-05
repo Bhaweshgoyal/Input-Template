@@ -1,0 +1,10 @@
+importPackage(java.io);
+importPackage(java.lang);
+ 
+var S = new BufferedReader( new InputStreamReader(System['in']) );
+var s = true;
+s = S.readLine();
+while (s != '42'){
+	System.out.println(s);
+	s = S.readLine();
+}
